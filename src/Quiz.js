@@ -11,7 +11,9 @@ class Quiz extends Component {
     }
     render() {
         return (
-            <QuizQuestion quiz_question={quizData.quiz_questions[0].instruction_text}></QuizQuestion>
+            <div>
+                <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position - 1].instruction_text}></QuizQuestion>
+            </div>
         )
     }
 }
