@@ -7,7 +7,7 @@ class Quiz extends Component {
         this.state = {quiz_position: 1};
     }
     render() {
-        return "<div><div class='QuizQuestion'></div></div>"
+        return "<div class='QuizQuestion'></div>"
     }
 }
 export default Quiz
