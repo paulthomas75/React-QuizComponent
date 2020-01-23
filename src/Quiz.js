@@ -9,7 +9,7 @@ class Quiz extends Component {
         this.state = { quiz_position: 1 };
     }
     render() {
-        return "<div><div class='QuizQuestion'>{quizData.quiz_questions[0].instruction_text}</div></div>"
+        return "<div>Quiz</div>"
     }
 }
 export default Quiz
