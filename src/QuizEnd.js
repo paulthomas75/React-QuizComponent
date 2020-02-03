@@ -1,10 +1,6 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 
-export class QuizEnd extends Component {
-    static propTypes = {
-
-    }
+class QuizEnd extends Component {clea
 
     render() {
         return (
