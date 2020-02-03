@@ -18,9 +18,6 @@ class Quiz extends Component {
         });
     }
   
-    showNextQuestionHandler() {
-      
-    }
     render() {
         const isQuizEnd = ((this.state.quiz_position - 1) === quizData.quiz_questions.length);
         return (
